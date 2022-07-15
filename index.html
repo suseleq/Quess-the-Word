@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Word Game</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="header">Quess the Word</h1>
+        <input type="text" class="typing-input" maxlength="1">
+        <div class="content">
+            <div class="inputs"></div>
+            <p class="text">Hint: <span class="hint"></span></p>
+            <p class="text">Quesses Left: <span class="quesses"></span></p>
+            <p class="text">Wrong Letters: <span class="wrong-letters"></span></p>
+            <button class="reset-btn">Reset Game</button>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+    <script src="./words.js"></script>
+</body>
+</html>
